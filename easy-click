@@ -70,9 +70,6 @@ class Watcher:
             Popen(shlex.split(f'xdotool windowstate --remove ABOVE {self.windowid}'),stdout=PIPE)
             exit()
 
-        elif hasattr(key, 'vk'):
-            self.keyboard.press(key.vk)
-
     def on_release(self, key):
         if self.mode and hasattr(key, 'vk') and key.vk == 34:
             self.mouse.release(Button.left)
