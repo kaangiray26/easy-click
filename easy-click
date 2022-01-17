@@ -75,6 +75,7 @@ class Watcher:
             self.mouse.release(Button.left)
 
     def start(self):
+        print(f"Mode:{'On ' if self.mode else 'Off'}", end='\r')
         self.mouse_listener.start()
         self.keyboard_listener.start()
         self.keyboard_listener.join()
