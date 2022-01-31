@@ -44,3 +44,6 @@ Here are the default keys:
 - 2 from number keys: Right click
 - F1: Switch mode on/off
 - Esc: Exit
+
+And here's the default layout:
+<img src="https://raw.githubusercontent.com/f34rl00/easy-click/master/images/layout.png">
